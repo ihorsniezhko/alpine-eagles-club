@@ -24,3 +24,15 @@ The Alpine Eagles E-bike MTB Club website promotes e-mountain bike tours in the 
 *   As a new user, I want to be able to quickly navigate the website and find what I need.
 *   As an interested rider, I want to see the schedule of upcoming tours and their dates.
 *   As a user, I want to have access to the club's contact information.
+
+
+## Credits
+
+### Content
+*   The text used in the "E-Bike Adventures in the Heart of Germany!" section was written by the project creator, based on information from similar sites.
+*   The text in the "Mountain Biking Adventures" section was written by the project creator, based on information from similar sites.
+
+### Media
+*   The images used in the icon, site Logo, "Hero" and "Mountain Biking Adventures" sections are created with [Google Gemini ImageGen3](https://deepmind.google/technologies/imagen-3/).
+*   The images edited with [ThechSmith Snagit Editor](https://www.techsmith.com/snagit/).
+*   The social media icons in the Services section and the footer are from [Font Awesome](https://fontawesome.com/).
