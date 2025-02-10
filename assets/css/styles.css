@@ -5,3 +5,7 @@ body {
 #hero {
     background-color: #f8f9fa; /* Light gray background */
 }
+#contact {
+    max-width: 800px; /* Limit width for better layout */
+    margin: auto; /* Center the contact section */
+}
