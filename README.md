@@ -43,6 +43,16 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 *   A form is present to collect user information for joining the journey, including fields for First Name, Last Name, Age Group, Desirable Tour Date, E-mail, and Phone. The form includes a "Submit" and "Cancel" button.
 *   The footer contains contact information, including the club's address, phone number, email, and social media links, like Facebook, Youtube, and Instagram.
 
+## Site Features
+
+### Existing Features
+
+### Future Features
+*   A gallery section featuring images from past club events would be added to showcase the club's activities.
+*   User login system and member profiles with different access levels.
+*   More robust booking system for scheduled tours, and a calendar view.
+*   Feedback or comment section for members to share their experiences.
+
 ## Credits
 
 ### Content
