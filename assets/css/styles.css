@@ -9,3 +9,9 @@ body {
     max-width: 800px; /* Limit width for better layout */
     margin: auto; /* Center the contact section */
 }
+/* Limit the width of form */
+.max-width-limit {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+  }

@@ -199,42 +199,47 @@
          <div class="container">
              <h2 class="text-center">Join the Adventure!</h2>
               <p class="text-center">Ready to become an Alpine Eagle?</p>
-            <form action="https://formdump.codeinstitute.net" method="post">
-                 <div class="mb-3">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" name="first_name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="lastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" name="last_name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="mb-3"><label class="form-label" for="phone">Phone</label>
-                    <input class="form-control" type="tel" id="phone" required="" name="member_phone">
-                </div>
-                <div class="mb-3"><label class="form-label" for="tourDate">Desirable Tour Date</label>
-                    <input class="form-control" id="tourDate" type="date" required="" name="tour_date">
-                </div>    
-                 <div class="mb-3">
-                    <label for="ageGroup" class="form-label">Age Group</label>
-                    <select class="form-select" id="ageGroup" required="" name="member_age">
-                        <option value="" selected="">Select your age group</option>
-                        <option value="teen">Teen (14-17 years with an adult)</option>
-                        <option value="young_adult">Young Adult (18-29 years)</option>
-                        <option value="adult">Adult (30-45 years)</option>
-                        <option value="middle_aged">Middle-Aged Adult (46-59 years)</option>
-                        <option value="active_senior">Active Senior (60-69 years)</option>
-                        <option value="senior">Senior (70+ years)</option>
-                        <option value="family">Family</option>
-                    </select>
+                <!-- Custom class of width limit 720px -->
+                <form class="max-width-limit" action="https://formdump.codeinstitute.net" method="post"> <!-- Variable and value are passed to the CI formdump -->
+                    <!--  Form is implemented as container for responsiveness -->
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6"><label class="form-label" for="firstName">First Name</label>
+                                <input class="form-control" type="text" id="firstName" required="" name="member_first_name">
+                            </div>
+                            <div class="col-12 col-sm-6"><label class="form-label" for="lastName">Last Name</label>
+                                <input class="form-control" type="text" id="lastName" required="" name="member_last_name">
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6"><label class="form-label" for="ageGroup">Age Group</label>
+                                <select class="form-select" id="ageGroup" required="" name="member_age">
+                                    <option value="" selected="">Select your age group</option>
+                                    <option value="teen">Teen (14-17 years with an adult)</option>
+                                    <option value="young_adult">Young Adult (18-29 years)</option>
+                                    <option value="adult">Adult (30-45 years)</option>
+                                    <option value="middle_aged">Middle-Aged Adult (46-59 years)</option>
+                                    <option value="active_senior">Active Senior (60-69 years)</option>
+                                    <option value="senior">Senior (70+ years)</option>
+                                    <option value="family">Family</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6"><label class="form-label" for="tourDate">Desirable Tour Date</label>
+                                <input class="form-control" id="tourDate" type="date" required="" name="tour_date">
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6"><label class="form-label" for="email">E-mail</label>
+                                <input class="form-control" type="email" id="email" required="" name="member_email">
+                            </div>
+                            <div class="col-12 col-sm-6"><label class="form-label" for="phone">Phone</label>
+                                <input class="form-control" type="tel" id="phone" required="" name="member_phone">
+                            </div>
+                        </div>
+                        <p class="text-muted mt-3"><strong>Important Note:</strong> Always assess individual fitness levels and experience, regardless of age. It's good practice to have a medical disclaimer form for all participants to sign.</p>
+                        <!-- Flex container to move the buttons to the end -->
+                        <div class="d-flex justify-content-end"><button class="btn btn-primary" type="submit">Submit</button><button class="btn btn-secondary ms-2" type="reset">Cancel</button></div>
                     </div>
-                    <p class="text-muted"><strong>Important Note:</strong> Always assess individual fitness levels and experience, regardless of age. It's good practice to have a medical disclaimer form for all participants to sign.</p>
-                    <!-- Flex container to move the buttons to the end -->
-                    <div class="d-flex justify-content-end"><button class="btn btn-primary" type="submit">Submit</button><button class="btn btn-secondary ms-2" type="reset">Cancel</button></div>
-
                 </form>
         </div>
     </section>
