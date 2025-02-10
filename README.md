@@ -25,6 +25,23 @@ The Alpine Eagles E-bike MTB Club website promotes e-mountain bike tours in the 
 *   As an interested rider, I want to see the schedule of upcoming tours and their dates.
 *   As a user, I want to have access to the club's contact information.
 
+## Balsamiq Wireframes
+
+Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the Alpine Eagles website's layout used to plan the user interface. Balsamiq was chosen for its ability to quickly create and iterate on visual layouts, allowing for rapid design decisions and modifications.
+
+### Location
+*	The wireframes PDF file for the Alpine Eagles website can be found [here](assets/media/alpine-eagles-wireframes.pdf).
+*	The Balsamiq wireframes BMPR file can be found [here](assets/media/alpine-eagles-wireframes.bmpr).
+
+### Wireframes for Alpine Eagles
+*   Clear navigation menu is located at the top of the page, providing easy access to different sections of the website, including "Biking," "Services," "Schedule," "Join," and "Contact". The navigation bar collapses on smaller screens to maintain the site's integrity.
+*   The wireframes include the club logo, and sections: "The main club offer", "Club Benefits", "Club services", "Journey Schedule", "Journey Check-in" and "Contacts".
+*   A semitransparent Hero image and Club Offer are placed at the top of the landing page to engage visitors.
+*   "Club Benefits" section describes the benefits of bicycle trips. Each benefit is illustrated with a spectacular picture.
+*   "Club Services" describes the club's 8 most popular services, each visualized with a relevant icon.
+*   "Journey Schedule" table show the upcoming trips with dates and descriptions.
+*   A form is present to collect user information for joining the journey, including fields for First Name, Last Name, Age Group, Desirable Tour Date, E-mail, and Phone. The form includes a "Submit" and "Cancel" button.
+*   The footer contains contact information, including the club's address, phone number, email, and social media links, like Facebook, Youtube, and Instagram.
 
 ## Credits
 
