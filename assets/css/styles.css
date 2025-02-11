@@ -5,9 +5,9 @@ body {
 #hero {
     background-color: #f8f9fa; /* Light gray background */
 }
+ /* Limit the width of contact elements */
 #contact {
-    max-width: 800px; /* Limit width for better layout */
-    margin: auto; /* Center the contact section */
+    max-width: 720px;
 }
 /* Limit the width of form and table */
 .max-width-limit {
