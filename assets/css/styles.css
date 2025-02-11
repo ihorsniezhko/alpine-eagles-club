@@ -1,5 +1,10 @@
+/* Roboto and Serif Google fonts import for better accessibility */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
 body {
     padding-top: 56px; /* Placeholder for navbar height */
+    font-family: 'Roboto Serif', serif;
 }
 
 #hero {
