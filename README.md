@@ -47,6 +47,26 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 
 ### Existing Features
 
+*   **Mountain Biking Adventures Section:** This section features four images and descriptive text, highlighting the benefits of e-biking. This section is designed to persuade users to join the club and consider e-biking as their form of exercise.
+
+![Alpine Eagles Biking Adventures Section](assets/media/mountain-biking-adventures-placeholder.png)
+
+*   **Our Services Section:** This section lists the services offered by the club, including guided tours, rentals, and maintenance. This is valuable for users as they can learn about everything the club offers.
+
+![Alpine Eagles Our Services Section](assets/media/our-services-placeholder.png)
+
+*   **Upcoming Journeys Section:** A table that shows upcoming tours with their dates. This allows users to see the tour schedule and plan accordingly.
+
+![Alpine Eagles Upcoming Journeys Section](assets/media/upcoming-journeys-placeholder.png)
+
+*   **Join the Adventure Section:** This section has a sign-up form to allow users to join the club by providing their name, age, and contact information. The form includes client-side validation.
+
+![Alpine Eagles Join the Adventure Section](assets/media/join-adventure-placeholder.png)
+
+*   **Contact Us Section:** This section provides the club's contact information and social media links. Social media links open in a new tab.
+
+![Alpine Eagles Contact Us Section](assets/media/contact-us-placeholder.png)
+
 ### Future Features
 *   A gallery section featuring images from past club events would be added to showcase the club's activities.
 *   User login system and member profiles with different access levels.
