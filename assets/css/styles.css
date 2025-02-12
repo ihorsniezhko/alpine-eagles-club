@@ -10,8 +10,8 @@ body {
 #hero {
     background-color: #f8f9fa; /* Light gray background */
 }
- /* Limit the width of contact elements */
-#contact {
+ /* Limit the width of contact elements and hero message */
+#contact, #hero-message {
     max-width: 720px;
 }
 /* Limit the width of form and table */
