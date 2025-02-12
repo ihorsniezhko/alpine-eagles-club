@@ -47,6 +47,10 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 
 ### Existing Features
 
+*  **Hero Section**: Includes a title, tagline and a brief explanation of the club's offering. The section's aim is to grab the user's attention and clearly explain the club's goals.
+
+![Alpine Eagles Hero Section](assets/media/hero-placeholder.png)
+
 *   **Mountain Biking Adventures Section:** This section features four images and descriptive text, highlighting the benefits of e-biking. This section is designed to persuade users to join the club and consider e-biking as their form of exercise.
 
 ![Alpine Eagles Biking Adventures Section](assets/media/mountain-biking-adventures-placeholder.png)
