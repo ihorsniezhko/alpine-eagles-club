@@ -6,13 +6,19 @@ body {
     padding-top: 56px; /* Placeholder for navbar height */
     font-family: 'Roboto Serif', serif;
 }
-/* Styling of the hero section */
+/* Style of the hero section */
 
 #hero {
     background-image: url("../img/alpine-eagles-hero-background-opacity.webp");
     background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  /* Assign color to the top menu labels */
+
+nav .navbar-nav .nav-link, nav .navbar-brand {
+    color: var(--bs-success-text-emphasis);
   }
 
  /* Limit the width of contact elements and hero message for readability */
