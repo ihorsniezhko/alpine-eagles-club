@@ -289,7 +289,7 @@
                         let section = document.querySelector(e.target.getAttribute("href"));
                         if (section) {
                             e.preventDefault(); // Prevent default anchor click behavior
-                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                            let navbarHeight = 68; //Set navbar height manually for correct scrolling
                             window.scroll({
                                 top: section.offsetTop - navbarHeight, // Adjust for navbar height
                                 behavior: "smooth",
