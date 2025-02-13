@@ -1,5 +1,4 @@
 /* Roboto and Serif Google fonts import for better accessibility */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 
 /* Padding body for fixed menu */
@@ -7,8 +6,8 @@ body {
     padding-top: 68px;
     font-family: 'Roboto Serif', serif;
 }
-/* Style of the hero section */
 
+/* Style of the hero section */
 #hero {
     background-image: url("../img/alpine-eagles-hero-background-opacity.webp");
     background-position: top right;
@@ -17,13 +16,11 @@ body {
   }
 
   /* Assign color to the top menu labels */
-
 nav .navbar-nav .nav-link, nav .navbar-brand {
     color: var(--bs-success-text-emphasis);
   }
 
   /* Hoover highlighting for top menu links */
-
 nav .navbar-nav .nav-link:hover {
     background-color: var(--bs-light);
   }
@@ -32,6 +29,7 @@ nav .navbar-nav .nav-link:hover {
 #contact, #hero-message {
     max-width: 720px;
 }
+
 /* Limit the width of form and table */
 .max-width-limit {
     width: 100%;
@@ -39,7 +37,6 @@ nav .navbar-nav .nav-link:hover {
     margin: auto;
   }
   /* Reducing items for XS view */
-
 @media (max-width: 575px) {
     #journey-schedule-table {
       font-size: 0.8rem;
