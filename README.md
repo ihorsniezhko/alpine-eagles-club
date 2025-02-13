@@ -47,6 +47,10 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 
 ### Existing Features
 
+*   **Navigation Bar:** The navigation bar at the top of the page provides links to different sections: Biking, Services, Schedule, Join, and Contact. This allows easy navigation across all devices.
+
+![Alpine Eagles Navigation Bar](assets/media/navigation-bar-placeholder.png)
+
 *  **Hero Section**: Includes a title, tagline and a brief explanation of the club's offering. The section's aim is to grab the user's attention and clearly explain the club's goals.
 
 ![Alpine Eagles Hero Section](assets/media/hero-placeholder.png)
