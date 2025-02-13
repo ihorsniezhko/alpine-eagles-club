@@ -279,7 +279,28 @@
             <a class="me-4" href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fab fa-youtube fa-2x"></i></a>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fab fa-instagram fa-2x"></i></a></div>    
         </div>
-    </footer>   
+    </footer>
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+        <script>
+            document
+                .querySelectorAll(".navbar-collapse .nav-link")
+                .forEach((link) => {
+                    link.addEventListener("click", function (e) {
+                        let section = document.querySelector(e.target.getAttribute("href"));
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                            document
+                                .querySelector(".navbar-collapse")
+                                .classList.remove("show"); // Collapse navbar
+                        }
+                    });
+                });
+        </script>   
     <!-- Font Awesome JS code -->
     <script src="https://kit.fontawesome.com/6a1295cdde.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS code -->
