@@ -114,10 +114,16 @@ The website was deployed to **GitHub Pages** using the following steps:
 2.  From the **Pages** side menu, **Branch** section drop-down menu, select the **Main** and press **Save**.
 3.  The live link can be found [here](https://ihorsniezhko.github.io/alpine-eagles-club/)
 
+## Unfixed Issues
+
+*   Clicking on anchor links caused inaccurate scrolling to sections of the page. After investigating the problem, the JavaScript provided by CI was modified. The navbarHeight variable was set to a menu height of **77px**.
+*   The width of some elements has been hardcoded to **720px** for easy readability. The best way to set the width would be the Bootstrap container-md class. It would allow to reduce the number of custom styles. However, these recommendations did not produce the desired result. Given the limited time for the project, a more traditional way via CSS attributes was used.
+*   The Hero section contains the background image defined via CSS. The ARIA attribute is used instead of alt text. It is possible to describe the picture using scr and alt, but this would require multiple CSS parameters. 
+
 ## Credits
 
 ### Content
-*   The text used in the "E-Bike Adventures in the Heart of Germany!" section was written by the project creator, based on information from similar sites.
+*   The text used in the "E-Bike Adventures in the Heart of Germany!" section was written by the project creator, based on information from similar international sites.
 *   The text in the "Mountain Biking Adventures" section was written by the project creator, based on information from similar sites.
 
 ### Media
