@@ -36,6 +36,7 @@ nav .navbar-nav .nav-link:hover {
     max-width: 720px;
     margin: auto;
   }
+  
   /* Reducing items for XS view */
 @media (max-width: 575px) {
     #journey-schedule-table {
@@ -45,4 +46,3 @@ nav .navbar-nav .nav-link:hover {
       height: 43px;
       width: 43px;
     }
-  }
