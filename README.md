@@ -97,8 +97,22 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
  ![Join the Adventure Form Test](assets/media/join-adventure-form-test.png)
 
 ### Validator Testing
-*   HTML: No errors were returned when passing through the [official W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fihorsniezhko.github.io%2Falpine-eagles%2F).
-*   CSS: No errors were found when passing through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fihorsniezhko.github.io%2Falpine-eagles%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+*   HTML: No errors were returned when passing through the [official W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fihorsniezhko.github.io%2Falpine-eagles-club).
+*   CSS: No errors were found when passing through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fihorsniezhko.github.io%2Falpine-eagles-club).
+
+### Accessibility
+*   The site's accessibility was checked using Lighthouse, and all recommended issues have been fixed. The contrast between text and background colors was adjusted to be readable for those with visual impairments (used **Bootstrap class text-primary-emphasis**). Also, ARIA attributes have been added to some elements (such as social media icons).
+
+## Lighthouse Report
+![Alpine Eagles Lighthouse Report](assets/media/alpine-eagles-lighthouse.png)
+
+## Deployment
+
+The website was deployed to **GitHub Pages** using the following steps:
+
+1.  In the GitHub repository, navigate to the **Settings** tab.
+2.  From the **Pages** side menu, **Branch** section drop-down menu, select the **Main** and press **Save**.
+3.  The live link can be found [here](https://ihorsniezhko.github.io/alpine-eagles-club/)
 
 ## Credits
 
