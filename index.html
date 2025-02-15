@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <!-- Handpicked BS classes for better margins -->
+        <!-- Handpicked BS classes for better margins, inaccurate scrolling fixed in CS JavaScript -->
         <nav class="navbar navbar-expand-md fixed-top bg-body py-2 align-items-center">
             <div class="container">
                 <a class="me-4" href="index.html"><img id="logo-image" src="assets/img/alpine-eagles-logo.webp" alt="Alpine Eagles MTB E-bike Club"></a>
@@ -34,6 +34,7 @@
         </nav>
     </header>
     <main>
+        <!-- BS class for responsiveness, custom class for background -->
         <section class="text-primary-emphasis img-fluid py-4 px-2" id="hero" aria-label="E-Bike Adventures in the Heart of Germany">
             <!-- Hero-message ID to limit width of text container -->
             <div class="container text-center" id="hero-message">
@@ -88,6 +89,7 @@
              </div>
             </div>
     </section>
+    <!-- Handpicked BS classes for better margins -->
     <section id="services" class="bg-light py-3 pb-0">
         <div class="container">
             <h2 class="text-center text-primary-emphasis mb-4">Our Services</h2>
@@ -167,6 +169,7 @@
             </div>
         </div>
     </section>
+    <!-- Handpicked BS classes for better margins -->
     <section id="schedule" class="py-3">
         <div class="container">
             <h2 class="text-center text-primary-emphasis">Upcoming Journeys</h2>
@@ -200,8 +203,9 @@
                 </table>
             </div>
         </div>
-             </section>
-      <section class="bg-light py-4" id="join">
+    </section>
+    <!-- Handpicked BS class for better margins -->
+    <section class="bg-light py-4" id="join">
          <div class="container">
             <h2 class="text-center text-primary-emphasis">Join the Adventure!</h2>
             <p class="text-center">Ready to give e-biking a try? Come join the club and let's hit the trails!</p>
@@ -250,7 +254,8 @@
         </div>
     </section>
 </main>
-    <footer>
+<!-- Used BS cards for consistent look and custom class for 720px width limit -->    
+<footer>
         <div class="container pb-3" id="contact">
             <!-- Handpicked BS classes for better placement -->
             <div class="row gy-4 mt-0 pt-0">
@@ -263,13 +268,13 @@
                 <div class="col-12 col-sm-6 d-flex">
                     <div class="card flex-fill">
                         <!-- Used BS font style that links are the same color as the card text -->
-                        <div class="card-body text-primary-emphasis d-flex flex-column p-4">
-                            <h2 class="card-title">Contact Us</h2>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h2 class="card-title text-primary-emphasis">Contact Us</h2>
                             <address>
                                 <p class="card-text"><i class="fas fa-map-marker-alt me-2"></i><strong>Alpine Eagles MTB Club</strong>, 65183, Wiesbaden, Hellmundstr. 56</p>
                             </address>
-                            <p class="card-text"><i class="fas fa-phone-alt me-2"></i><a class=text-primary-emphasis href="tel:+491234567890">+491234567890</a></p>
-                            <p class="card-text"><i class="fas fa-envelope me-2"></i><a class=text-primary-emphasis href="mailto:go@alpineegles.club">go@alpineegles.club</a></p>
+                            <p class="card-text"><i class="fas fa-phone-alt me-2"></i><a class="link-body-emphasis" href="tel:+491234567890">+491234567890</a></p>
+                            <p class="card-text"><i class="fas fa-envelope me-2"></i><a class="link-body-emphasis" href="mailto:go@alpineegles.club">go@alpineegles.club</a></p>
                         </div>
                     </div>
                 </div>
